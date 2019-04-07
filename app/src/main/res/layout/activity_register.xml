@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b3"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/nametext7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="82dp"
+        android:text="Aadhaar Card No"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="382dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:ems="10"
+        android:hint="Birth Date"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/mob_no"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="253dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginRight="42dp"
+        android:ems="10"
+        android:hint="Mobile No"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/nametext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="210dp"
+        android:text="Birth Date"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/nametext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="270dp"
+        android:text="Mobile no."
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/nametext4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="334dp"
+        android:text="User Id"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/nametext6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="394dp"
+        android:text="Password"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/aadhaar"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="158dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="71dp"
+        android:ems="10"
+        android:hint="Aadhaar Card No"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginTop="131dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="146dp"
+        android:text="Name"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="138dp"
+        android:layout_marginRight="138dp"
+        android:layout_marginBottom="26dp"
+        android:text="Register" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/password"
+        android:layout_alignStart="@+id/password"
+        android:layout_marginBottom="-370dp"
+        android:ems="10"
+        android:hint="User Id"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

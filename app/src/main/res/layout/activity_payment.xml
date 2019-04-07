@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b3"
+    tools:context=".Payment">
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="261dp"
+        android:layout_height="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="Your pending amount is:"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_orange_light"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="309dp"
+        android:layout_height="53dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="201dp"
+        android:text="You have to pay this amount before:"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="229dp"
+        android:layout_height="115dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="39dp"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:inputType="number"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="45sp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="59dp"
+        android:layout_height="69dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="122dp"
+        android:layout_toStartOf="@+id/amount"
+        app:srcCompat="@drawable/rupee" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text3"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-201dp"
+        android:ems="10"
+        android:inputType="date"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="114dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:text="PAY NOW" />
+
+</RelativeLayout>
